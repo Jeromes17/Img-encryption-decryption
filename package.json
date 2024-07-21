@@ -1,0 +1,32 @@
+{
+  "name": "img_enc",
+  "version": "1.0.0",
+  "description": "A CLI tool for image encryption and decryption",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "encrypt": "node index.js --encrypt",
+    "decrypt": "node index.js --decrypt"
+  },
+  "bin": {
+    "img_enc": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "encryption",
+    "decryption",
+    "image"
+  ],
+  "author": "your_name",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cli-alerts": "^1.0.1",
+    "cli-handle-unhandled": "^1.0.1",
+    "cli-welcome": "^1.1.1",
+    "jimp": "^0.16.1",
+    "meow": "^10.1.2",
+    "ora": "^6.0.1"
+  }
+}
